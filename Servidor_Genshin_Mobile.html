@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Servidor Genshin Impact</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #1a1a3c, #2b2b52);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 2em;
+      background-image: url('https://images.alphacoders.com/115/thumb-1920-1150932.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      position: relative;
+    }
+    header h1 {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      font-size: 2em;
+      background-color: rgba(0,0,0,0.5);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    section {
+      padding: 1.5em;
+    }
+    .button {
+      background: #7f5af0;
+      color: white;
+      padding: 1em 2em;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 20px;
+    }
+    .button:hover {
+      background: #6246ea;
+    }
+    .features {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5em;
+      margin-top: 2em;
+    }
+    @media(min-width: 700px) {
+      .features {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    }
+    .card {
+      background-color: #2c2c54;
+      padding: 1.5em;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 250px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bem-vindo ao nosso Servidor de Genshin Impact!</h1>
+  </header>
+
+  <section>
+    <p>Junte-se a uma comunidade vibrante de jogadores, faça amigos, participe de eventos e descubra o mundo de Teyvat com outros Viajantes!</p>
+    <button class="button" onclick="window.location.href='https://discord.gg/M4sk2Ezh'">Entrar no Servidor</button>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h2>Eventos Semanais</h2>
+      <p>Participe de desafios e sorteios exclusivos com prêmios incríveis!</p>
+    </div>
+    <div class="card">
+      <h2>Guias e Dicas</h2>
+      <p>Receba ajuda de veteranos e aprimore seus personagens com eficiência.</p>
+    </div>
+    <div class="card">
+      <h2>Comunidade Ativa</h2>
+      <p>Chats temáticos, memes, fanarts e muito mais com uma galera animada!</p>
+    </div>
+  </section>
+
+</body>
+</html>
